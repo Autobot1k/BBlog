@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-25T18:00:35 GMT-05:00" name="Default Suite" finished-at="2021-05-25T18:01:10 GMT-05:00" duration-ms="35503">
+    <groups>
+    </groups>
+    <test started-at="2021-05-25T18:00:35 GMT-05:00" name="BBlog" finished-at="2021-05-25T18:01:10 GMT-05:00" duration-ms="35503">
+      <class name="LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:35 GMT-05:00" name="setup" finished-at="2021-05-25T18:00:39 GMT-05:00" duration-ms="4536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:39 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:00:41 GMT-05:00" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaiscool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:41 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:00:41 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:41 GMT-05:00" name="setup" finished-at="2021-05-25T18:00:46 GMT-05:00" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:46 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:00:47 GMT-05:00" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa_is_cool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:47 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:00:47 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:47 GMT-05:00" name="setup" finished-at="2021-05-25T18:00:50 GMT-05:00" duration-ms="3902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:50 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:00:51 GMT-05:00" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbgmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaiscool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:52 GMT-05:00" name="setup" finished-at="2021-05-25T18:00:56 GMT-05:00" duration-ms="4320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:52 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:00:52 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:56 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:00:57 GMT-05:00" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbgmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa_is_cool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:57 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:00:57 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:00:57 GMT-05:00" name="setup" finished-at="2021-05-25T18:01:05 GMT-05:00" duration-ms="7791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:01:05 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:01:05 GMT-05:00" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:01:05 GMT-05:00" name="setup" finished-at="2021-05-25T18:01:09 GMT-05:00" duration-ms="3834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void LoginTests.testLogin(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:01:05 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:01:05 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:01:09 GMT-05:00" name="testLogin" data-provider="Login" finished-at="2021-05-25T18:01:10 GMT-05:00" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaiscool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterActions()[pri:0, instance:LoginTests@49ec71f8]" started-at="2021-05-25T18:01:10 GMT-05:00" name="afterActions" finished-at="2021-05-25T18:01:10 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- LoginTests -->
+    </test> <!-- BBlog -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="none" >
+
+
+    <test name="Chrome tests">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+
+            <class name ="LoginTests"/>
+
+        </classes>
+
+    </test>
+
+</suite>
